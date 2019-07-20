@@ -34,7 +34,8 @@ class Artist
     else
       artist = Artist.new(name)
       @@all << artist 
-      
+      artist 
+    end
   end
   
   def print_songs 

@@ -32,7 +32,8 @@ class Artist
     if match 
       match
     else
-      artist = Artist.new
+      artist = Artist.new(name)
+      
   end
   
   def print_songs 

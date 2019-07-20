@@ -31,7 +31,8 @@ class Artist
     match = @@all.detect {|artist| artist.name == name}
     if match 
       match
-      
+    else
+      artist
   end
   
   def print_songs 

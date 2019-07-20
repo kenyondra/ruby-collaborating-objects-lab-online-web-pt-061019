@@ -33,6 +33,7 @@ class Artist
       match
     else
       artist = Artist.new(name)
+      @@all << artist 
       
   end
   
